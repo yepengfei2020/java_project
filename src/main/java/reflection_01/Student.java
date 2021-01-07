@@ -1,4 +1,4 @@
-package com.newtouch.work.entity;
+package reflection_01;
 
 /**
  * @program: java_project

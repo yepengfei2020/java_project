@@ -1,7 +1,6 @@
-package com.newtouch.work.entity;
+package reflection_01;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
 /**
  * @program: java_project
@@ -13,7 +12,7 @@ public class ClassAPI {
 
     public static void main(String[] args) throws Exception {
         /// 获取成员变量
-        Class<?> clazz = Class.forName("com.newtouch.work.entity.Student");
+        Class<?> clazz = Class.forName("reflection_01.Student");
         // 获取成员变量,包括子类及父类,同时只能包含公共的方法
         Field[]  fields = clazz.getFields();
 //        System.out.print(fields.length);

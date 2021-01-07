@@ -1,4 +1,4 @@
-package com.newtouch.work.entity;
+package reflection_01;
 
 import java.util.Enumeration;
 import java.util.Properties;

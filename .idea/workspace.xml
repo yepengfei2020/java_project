@@ -15,8 +15,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mg7di0bx8VPsCacBTKSLx2FrxQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/newtouch/work/entity" />
@@ -45,11 +50,11 @@
   </component>
   <component name="RunManager" selected="Application.testClass">
     <configuration name="ClassLoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.entity.ClassLoad" />
+      <option name="MAIN_CLASS_NAME" value="reflection_01.ClassLoad" />
       <module name="java_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.work.entity.*" />
+          <option name="PATTERN" value="reflection_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,11 +63,11 @@
       </method>
     </configuration>
     <configuration name="Configuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.entity.Configuration" />
+      <option name="MAIN_CLASS_NAME" value="reflection_01.Configuration" />
       <module name="java_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.work.entity.*" />
+          <option name="PATTERN" value="reflection_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="ReadProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.entity.ReadProperties" />
+      <option name="MAIN_CLASS_NAME" value="reflection_01.ReadProperties" />
       <module name="java_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.work.entity.*" />
+          <option name="PATTERN" value="reflection_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.entity.test" />
+      <option name="MAIN_CLASS_NAME" value="reflection_01.test" />
       <module name="java_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.work.entity.*" />
+          <option name="PATTERN" value="reflection_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="testClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newtouch.work.entity.testClass" />
+      <option name="MAIN_CLASS_NAME" value="reflection_01.testClass" />
       <module name="java_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newtouch.work.entity.*" />
+          <option name="PATTERN" value="reflection_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +135,23 @@
       <option name="presentableId" value="Default" />
       <updated>1609903468420</updated>
       <workItem from="1609910216473" duration="5694000" />
-      <workItem from="1609916132528" duration="32071000" />
+      <workItem from="1609916132528" duration="32526000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,4 @@
-package com.newtouch.work.entity;
+package reflection_01;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -37,7 +37,7 @@ public class testClass {
         System.out.println(((Student)object).getName() );
 
 
-        Class clz = Class.forName("com.newtouch.work.entity.Student");
+        Class clz = Class.forName("reflection_01.Student");
         Method method = clz.getMethod("setAge", Integer.class);
         Constructor constructor = clz.getConstructor();
         Object object1 = constructor.newInstance();

@@ -1,8 +1,4 @@
-package com.newtouch.work;
-
-import com.newtouch.work.entity.People;
-
-import java.sql.SQLOutput;
+package reflection_01;
 
 /**
  * @program: java_project
@@ -13,7 +9,7 @@ import java.sql.SQLOutput;
 public class CreateClassObject {
     public static void main(String[] args) throws Exception {
         //1.通过class.forName获取Class对象
-        Class clazz = Class.forName("com.newtouch.work.entity.People");
+        Class clazz = Class.forName("reflection_01.People");
         //2.通过类名来获取
         //Class<People> clazz1 = People.class;
         //3.通过对象的.class来获取

@@ -1,4 +1,4 @@
-package com.newtouch.work.entity;
+package reflection_01;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -23,7 +23,7 @@ public class ClassLoad {
         //3.获取扩展类加载器的父类加载器，即引用类加载器。
         classLoader = classLoader.getParent();
         //4.测试当前类由那个类加载器加载
-        classLoader = Class.forName("com.newtouch.work.entity.Student").getClassLoader();
+        classLoader = Class.forName("reflection_01.Student").getClassLoader();
         System.out.println(classLoader);
         //5.测试JDK提供的Object类由那个类加载器提供
         classLoader = Class.forName("java.lang.Object").getClassLoader();
